@@ -211,9 +211,14 @@ input[type="submit"]:hover {
     flex-direction: row;
     margin: 10px 0;
     width: 45vw;
+    justify-content: space-between;
+}
+.Imagenes{
+    width: 500px !important;
 }
 .twitter-timeline{
     margin-left: 5px;
+    width: 50vw !important;
 }
 
 .CuisineSection{
@@ -332,5 +337,8 @@ text-align: justify;
     }
     .CuisineDivisions img{
         width: 95vw;
+    }
+    .hotspotsImg{
+        width: 90vw;
     }
 }
