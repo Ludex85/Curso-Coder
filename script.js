@@ -3,12 +3,12 @@ window.addEventListener('resize', function() {
     var container = document.getElementById('twitter-timeline');
 
     // Obtener la línea de tiempo de Twitter (iframe)
-    var twittertimeline = container.querySelector('iframe');
+    var twitterTimeline = container.querySelector('iframe');
 
     // Obtener la URL de la línea de tiempo
-    var twitterUrl = twittertimeline.getAttribute('src');
+    var twitterUrl = twitterTimeline.getAttribute('src');
 
     // Actualizar el src del iframe para forzar la recarga
-    twittertimeline.src = '';
-    twittertimeline.src = twitterUrl;
+    twitterTimeline.src = '';
+    twitterTimeline.src = twitterUrl;
 });
