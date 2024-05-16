@@ -1,59 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
     <title>Hokkaido Tourism</title>
-    <link rel="shortcut icon" href="https://www.shareicon.net/data/256x256/2016/03/09/731437_japan_512x512.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="https://www.shareicon.net/data/256x256/2016/03/09/731437_japan_512x512.png"
+        type="image/x-icon">
 </head>
+
 <body class="IndexBody">
     <header>
         <h1 class="IndexTitle">Welcome to Hokkaido's Tourism Page</h1>
     </header>
-<div class="wrapper">
-    <nav class="NavBar">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="hotspots.html">Hotspots</a></li>
-            <li><a href="cuisine.html">Cuisine</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="forms.html">Contact Us!</a></li>
-        </ul>
-    </nav>
-     <section class="CuisineSection">
-        <div  class="CuisineDivisions">
-            <h2>Traditional Japanese Cuisine: A Symphony of Simplicity and Elegance</h2>
-            <p class="CuisineStory">Traditional Japanese cuisine is a sublime expression of simplicity and elegance, where each ingredient is carefully selected and prepared to accentuate its natural flavor. It embodies a culinary philosophy deeply rooted in respect for nature and the seasons. Iconic dishes like sushi and sashimi epitomize this philosophy, where freshness and ingredient quality reign supreme. Sushi, with its delicately seasoned rice and expertly sliced raw fish, is a masterpiece of harmony between flavors and textures. The combination of vinegared rice and fresh seafood, carefully balanced with wasabi and soy sauce, creates a taste sensation that is both delicate and complex. Sashimi, on the other hand, showcases the purity of ingredients with thinly sliced fresh fish served with simple accompaniments like wasabi and soy sauce. The focus is on the natural essence of the fish, allowing its freshness and quality to shine through. These dishes are not only a delight to the palate but also an aesthetic experience, with their meticulous presentation and attention to detail, often reflecting the changing seasons or the artistic sensibilities of the chef.</p>
-            <h2>Jiro Ono: Sushi Virtuoso</h2>
-            <p class="CuisineCheff">Description: Jiro Ono, the revered sushi master of Sukiyabashi Jiro in Tokyo, epitomizes sushi craftsmanship. With precision and commitment, Ono's sushi transcends food to become an art form. His pursuit of perfection earned Sukiyabashi Jiro three Michelin stars. Each bite reflects dedication to sourcing ingredients and mastering flavors, offering diners an unforgettable journey into Japanese gastronomy.</p>
-            <img src="https://miro.medium.com/v2/resize:fit:700/1*uIpWhMAN0-tnjjeDR-FPPQ.jpeg" alt="Jiro Ono">
-        </div>
-        <div class="CuisineIframes">
-            <img src="https://elsouvenir.com/wp-content/uploads/2017/06/asai-kaiseki.gif" alt="Japanese Traditional Food" height="400">
-            <img src="https://cdn.shopify.com/s/files/1/2597/8324/files/Hokkaido_8._FBBU.gif?v=1690365047" alt="Hokkaido Cultural Food" height="400">
-        </div>
-        <div  class="CuisineDivisions">
-            <h2>Hokkaido's Culinary Delights: Bounty from the North</h2>
-            <p class="CuisineStory">Hokkaido's typical cuisine reflects the richness of the natural resources found in this northern region of Japan. With its cool climate and abundant seafood and dairy products, Hokkaido's gastronomy is comforting and satisfying. Genghis Khan, a marinated meat barbecue, offers a robust and hearty culinary experience that highlights the tender, juicy meat of the region. This dish, named after the famed Mongolian leader, is traditionally cooked over an open flame, infusing the meat with smoky flavors while preserving its succulence. Fresh seafood is another cornerstone of Hokkaido's cuisine, with the island's surrounding waters teeming with a variety of marine delicacies. From sweet and succulent crabs to plump and flavorful scallops, Hokkaido's seafood offerings are unparalleled. These ingredients are often enjoyed in a variety of dishes, from simple sashimi to elaborate hot pots, where their natural flavors can truly shine. Additionally, Hokkaido's dairy products, such as milk and ice cream, are renowned for their creaminess and unparalleled flavor, adding a touch of sweetness to the island's culinary experience. Together, Hokkaido's cuisine offers a unique blend of delicious flavors and a deep connection to the region's nature, making it a must-try for any food enthusiast.</p>
-            <h2>Yosuke Suga: Hokkaido Fusion</h2>
-            <p class="CuisineCheff">Description: Yosuke Suga, from Hokkaido, blends flavors with French cuisine at Sugalabo. Through creative fusion, Suga transforms ingredients into masterpieces. Inspired by Hokkaido's bounty, his dishes balance tradition and innovation. With each plate, Suga showcases respect for Hokkaido's heritage, reinventing Japanese cuisine for the modern palate.</p>
-            <img src="https://www.theworlds50best.com/discovery/filestore/jpg/Sugalabo-Tokyo-Japan-03.jpg" alt="Yosuke Suga">
-        </div>
-    </section>
-</div>
-<footer>
-    <section class="Container">
-    <div class="copyright">
-        &copy; 2024 Maximiliano Capello. All rights reserved.
+    <div class="wrapper container-fluid">
+        <nav class="NavBar ms-auto">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hotspots.html">Hotspots</a></li>
+                <li><a href="cuisine.html">Cuisine</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="forms.html">Contact Us!</a></li>
+            </ul>
+        </nav>
+        <section class="CuisineSection">
+            <div class="CuisineDivisions">
+                <h2>Traditional Japanese Cuisine: A Symphony of Simplicity and Elegance</h2>
+                <p class="CuisineStory">Traditional Japanese cuisine is a sublime expression of simplicity and elegance,
+                    where each ingredient is carefully selected and prepared to accentuate its natural flavor. It
+                    embodies a culinary philosophy deeply rooted in respect for nature and the seasons. Iconic dishes
+                    like sushi and sashimi epitomize this philosophy, where freshness and ingredient quality reign
+                    supreme. Sushi, with its delicately seasoned rice and expertly sliced raw fish, is a masterpiece of
+                    harmony between flavors and textures. The combination of vinegared rice and fresh seafood, carefully
+                    balanced with wasabi and soy sauce, creates a taste sensation that is both delicate and complex.
+                    Sashimi, on the other hand, showcases the purity of ingredients with thinly sliced fresh fish served
+                    with simple accompaniments like wasabi and soy sauce. The focus is on the natural essence of the
+                    fish, allowing its freshness and quality to shine through. These dishes are not only a delight to
+                    the palate but also an aesthetic experience, with their meticulous presentation and attention to
+                    detail, often reflecting the changing seasons or the artistic sensibilities of the chef.</p>
+                <h2>Jiro Ono: Sushi Virtuoso</h2>
+                <p class="CuisineCheff">Description: Jiro Ono, the revered sushi master of Sukiyabashi Jiro in Tokyo,
+                    epitomizes sushi craftsmanship. With precision and commitment, Ono's sushi transcends food to become
+                    an art form. His pursuit of perfection earned Sukiyabashi Jiro three Michelin stars. Each bite
+                    reflects dedication to sourcing ingredients and mastering flavors, offering diners an unforgettable
+                    journey into Japanese gastronomy.</p>
+                <img src="https://facts.net/wp-content/uploads/2023/10/12-astounding-facts-about-jiro-ono-1698680916.jpg" alt="Jiro Ono">
+            </div>
+            <div class="CuisineIframes">
+                <img src="https://elsouvenir.com/wp-content/uploads/2017/06/asai-kaiseki.gif"
+                    alt="Japanese Traditional Food">
+                <img src="https://cdn.shopify.com/s/files/1/2597/8324/files/Hokkaido_8._FBBU.gif?v=1690365047"
+                    alt="Hokkaido Cultural Food">
+            </div>
+            <div class="CuisineDivisions">
+                <h2>Hokkaido's Culinary Delights: Bounty from the North</h2>
+                <p class="CuisineStory">Hokkaido's typical cuisine reflects the richness of the natural resources found
+                    in this northern region of Japan. With its cool climate and abundant seafood and dairy products,
+                    Hokkaido's gastronomy is comforting and satisfying. Genghis Khan, a marinated meat barbecue, offers
+                    a robust and hearty culinary experience that highlights the tender, juicy meat of the region. This
+                    dish, named after the famed Mongolian leader, is traditionally cooked over an open flame, infusing
+                    the meat with smoky flavors while preserving its succulence. Fresh seafood is another cornerstone of
+                    Hokkaido's cuisine, with the island's surrounding waters teeming with a variety of marine
+                    delicacies. From sweet and succulent crabs to plump and flavorful scallops, Hokkaido's seafood
+                    offerings are unparalleled. These ingredients are often enjoyed in a variety of dishes, from simple
+                    sashimi to elaborate hot pots, where their natural flavors can truly shine. Additionally, Hokkaido's
+                    dairy products, such as milk and ice cream, are renowned for their creaminess and unparalleled
+                    flavor, adding a touch of sweetness to the island's culinary experience. Together, Hokkaido's
+                    cuisine offers a unique blend of delicious flavors and a deep connection to the region's nature,
+                    making it a must-try for any food enthusiast.</p>
+                <h2>Yosuke Suga: Hokkaido Fusion</h2>
+                <p class="CuisineCheff">Description: Yosuke S uga, from Hokkaido, blends flavors with French cuisine at
+                    Sugalabo. Through creative fusion, Suga transforms ingredients into masterpieces. Inspired by
+                    Hokkaido's bounty, his dishes balance tradition and innovation. With each plate, Suga showcases
+                    respect for Hokkaido's heritage, reinventing Japanese cuisine for the modern palate.</p>
+                <img src="https://www.theworlds50best.com/discovery/filestore/jpg/Sugalabo-Tokyo-Japan-03.jpg"
+                    alt="Yosuke Suga">
+            </div>
+        </section>
     </div>
-    <div class="social-links">
-        <a href="https://www.facebook.com/#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/256/20/20673.png" alt="Facebook"></a>
-        <a href="https://twitter.com/#" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM077G72J-6TnMcY-CJ2bRGFPN3QzVXgSw9UfNQT-vqQ&s" alt="Twitter"></a>
-        <a href="https://www.linkedin.com/#" target="_blank"><img src="https://cdn-icons-png.freepik.com/256/254/254394.png?semt=ais_hybrid" alt="LinkedIn"></a>
-    </div>
-    </section>
-</footer>      
+    <footer>
+        <section class="Container">
+            <div class="copyright">
+                &copy; 2024 Maximiliano Capello. All rights reserved.
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/#" target="_blank"><img
+                        src="https://cdn-icons-png.flaticon.com/256/20/20673.png" alt="Facebook"></a>
+                <a href="https://twitter.com/#" target="_blank"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM077G72J-6TnMcY-CJ2bRGFPN3QzVXgSw9UfNQT-vqQ&s"
+                        alt="Twitter"></a>
+                <a href="https://www.linkedin.com/#" target="_blank"><img
+                        src="https://cdn-icons-png.freepik.com/256/254/254394.png?semt=ais_hybrid" alt="LinkedIn"></a>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

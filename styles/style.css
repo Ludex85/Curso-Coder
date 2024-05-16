@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.IndexBody{
-    background-color: #f8f9fa; 
-    color: #333; 
+
+.IndexBody {
+    background-color: #f8f9fa;
+    color: #333;
     font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
-    position: relative; 
+    position: relative;
 }
-.IndexTitle{
-    background-color: #007bff; 
-    color: #fff; 
+
+.IndexTitle {
+    background-color: #007bff;
+    color: #fff;
     text-align: center;
     background-size: cover;
     width: 100%;
@@ -19,7 +21,8 @@
     padding: 20px 0;
     color: white;
 }
-.NavBar{
+
+.NavBar {
     background-color: #17a2b8;
     display: flex;
     flex: 1;
@@ -28,65 +31,78 @@
     border-radius: 10px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-    padding: 5px; 
+    padding: 5px;
     font-weight: bold;
-    width:fit-content;
+    width: fit-content;
     height: min-content;
     justify-content: flex-end;
     align-items: center;
 }
+
 .NavBar ul {
-    list-style-type: none; 
+    list-style-type: none;
     padding: 0;
-  }
-  
-  .NavBar ul li {
-    display: inline-block; 
-  }
-  
-  .NavBar ul li:last-child {
-    border-right: none;
-  }
-  
-  .NavBar ul li a {
-    display: inline-block;
-    color: #fff; 
-    text-decoration: none;
-    padding: 8px 16px; 
-    font-size: 16px; 
-    transition: background-color 0.3s; /
-}
-  .NavBar ul li a:hover {
-    background-color: #138496;
-}
-.NavBar > * {
-    margin-right: 10px; 
+    margin-bottom: 0;
 }
 
-.NavBar > *:last-child {
+.NavBar ul li {
+    display: inline-block;
+}
+
+.NavBar ul li:last-child {
+    border-right: none;
+}
+
+.NavBar ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    transition: background-color 0.3s;/
+}
+
+.NavBar ul li a:hover {
+    background-color: #138496;
+}
+
+.NavBar>* {
+    margin-right: 10px;
+}
+
+.NavBar>*:last-child {
     margin-right: 0;
 }
-.SeccionIndex > * {
-   justify-content:center ;
-   margin: auto;
+
+.SeccionIndex>* {
+    justify-content: center;
+    margin: auto;
 }
+
 .SeccionIndex {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Para que los elementos se ajusten a diferentes tamaños de pantalla */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
+    flex-wrap: wrap;
+    /* Para que los elementos se ajusten a diferentes tamaños de pantalla */
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    align-items: center;
+    /* Centra los elementos verticalmente */
 }
 
 h2 {
-    color: #007bff; /* Vibrant blue header color */
+    color: #007bff;
+    /* Vibrant blue header color */
     margin-left: 5px;
 }
-.TextoHistoria{
+
+.TextoHistoria {
     margin-top: 20px;
 }
+
 .TextoHistoria p {
-    line-height: 1.6; /* Improved readability with increased line height */
+    line-height: 1.6;
+    /* Improved readability with increased line height */
     margin-left: 5px;
     margin-right: 5px;
     padding: 3px 3px;
@@ -98,19 +114,24 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
-    position: absolute; /* Cambiamos la posición a absoluta */
-    bottom: 0; /* Situamos el footer al final del body */
-    width: 100%; /* Ancho completo */
+    position: absolute;
+    /* Cambiamos la posición a absoluta */
+    bottom: 0;
+    /* Situamos el footer al final del body */
+    width: 100%;
+    /* Ancho completo */
 }
 
-.wrapper{
+.wrapper {
     padding-bottom: 100px;
 }
-.Container{
+
+.Container {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
+
 /* Estilos para los enlaces de redes sociales */
 .social-links {
     display: flex;
@@ -123,9 +144,12 @@ footer {
     font-size: 20px;
     display: inline-block;
 }
+
 .social-links img {
-    width: 30px; /* Ajusta el ancho de los iconos */
-    height: auto; /* Mantiene la proporción de aspecto */
+    width: 30px;
+    /* Ajusta el ancho de los iconos */
+    height: auto;
+    /* Mantiene la proporción de aspecto */
 }
 
 .copyright {
@@ -137,10 +161,14 @@ form {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Aumentamos el tamaño y el difuminado de la sombra */
-    width: 70%; /* Ajustamos el ancho del formulario */
-    max-width: 800px; /* Limitamos el ancho máximo del formulario */
-    margin: 30px auto; /* Centramos el formulario horizontalmente y reducimos el margen superior */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    /* Aumentamos el tamaño y el difuminado de la sombra */
+    width: 70%;
+    /* Ajustamos el ancho del formulario */
+    max-width: 800px;
+    /* Limitamos el ancho máximo del formulario */
+    margin: 30px auto;
+    /* Centramos el formulario horizontalmente y reducimos el margen superior */
     height: 100%;
     margin-bottom: 75px;
     border: #333 solid 1px;
@@ -150,7 +178,8 @@ form {
 .seccionForm {
     display: flex;
     justify-content: center;
-    align-items: center; /* Centramos verticalmente el formulario */
+    align-items: center;
+    /* Centramos verticalmente el formulario */
     height: 100%;
 }
 
@@ -162,10 +191,13 @@ input[type="text"],
 input[type="email"],
 textarea,
 input[type="tel"] {
-    width: calc(100% - 20px); /* Restamos el padding de 10px a cada lado */
+    width: calc(100% - 20px);
+    /* Restamos el padding de 10px a cada lado */
     padding: 10px;
-    margin-top: 10px; /* Aumentamos el espacio superior */
-    margin-bottom: 20px; /* Aumentamos el espacio inferior */
+    margin-top: 10px;
+    /* Aumentamos el espacio superior */
+    margin-bottom: 20px;
+    /* Aumentamos el espacio inferior */
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -178,80 +210,98 @@ textarea {
 input[type="submit"] {
     background-color: #007bff;
     color: #fff;
-    padding: 12px 24px; /* Aumentamos el padding para hacer el botón más grande */
+    padding: 12px 24px;
+    /* Aumentamos el padding para hacer el botón más grande */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-    width: 100%; /* Hacemos que el botón ocupe todo el ancho del formulario */
-    max-width: 200px; /* Limitamos el ancho máximo del botón */
+    width: 100%;
+    /* Hacemos que el botón ocupe todo el ancho del formulario */
+    max-width: 200px;
+    /* Limitamos el ancho máximo del botón */
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
-.HotspotSection{
+
+.HotspotSection {
     display: flex;
 }
-.HotspotSection > *{
+
+.HotspotSection>* {
     flex: 1;
     padding: 20px;
     text-align: justify;
 }
-.HotspotSection > * :last-child{
+
+.HotspotSection>* :last-child {
     margin-right: 0;
 }
-.HotspotSection p{
-    height: 230px;
+
+.HotspotSection p {
+    min-height: 240px;
     width: 100%;
 }
-.hotspotsImg{
+
+.hotspotsImg {
     display: flex;
     flex-direction: row;
     margin: 10px 0;
     width: 45vw;
     justify-content: space-between;
 }
-.Imagenes{
+
+.Imagenes {
     width: 500px !important;
 }
-.twitter-timeline{
+
+.twitter-timeline {
     margin-left: 5px;
     width: 50vw !important;
 }
 
-.CuisineSection{
+.CuisineSection {
     display: flex;
     margin-top: 20px;
+    gap: 20px; 
 }
-.CuisineDivisions{
-flex: 1;
-padding: 20px;
-text-align: justify;
-}
-.CuisineStory  {
-    height: 380px;
-}
-.CuisineCheff{
-    height: 160px;
-}
-.CuisineDivisions h2{
-    margin-top: 20px;
-}
-.CuisineDivisions img {
-    margin-top: 20px;
-    height: 400px;
-    width: 30vw;
-}
-.CuisineIframes{
+
+.CuisineDivisions {
     display: flex;
     flex-direction: column;
+    flex: 1;
     padding: 20px;
+    text-align: justify;
+    justify-content: space-between; 
 }
-.CuisineIframes img{
-    margin-bottom: 20px;
+
+.CuisineDivisions h2 {
+    margin-top: 20px;
 }
+
+.CuisineDivisions img {
+    height: 40vh;
+    width: 30vw;
+    align-self: center;
+    flex-shrink: 0; 
+}
+
+.CuisineIframes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding-top: 50px;
+}
+
+.CuisineIframes img {
+    padding-bottom: 20px;
+    height: 40vh;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -295,6 +345,7 @@ text-align: justify;
         grid-template-columns: 1fr 1fr;
         padding-left: 10px;
     }
+
     .festival {
         flex-direction: row;
         justify-content: center;
@@ -304,44 +355,69 @@ text-align: justify;
         max-width: 400px;
     }
 }
+
 /* Estilos para pantallas pequeñas (móviles) */
 @media screen and (max-width: 1366px) {
     .SeccionIndex {
-        flex-direction: column; /* Apila los elementos uno encima del otro */
-        align-items: stretch; /* Ajusta la altura de los elementos para ocupar todo el ancho */
+        flex-direction: column;
+        /* Apila los elementos uno encima del otro */
+        align-items: stretch;
+        /* Ajusta la altura de los elementos para ocupar todo el ancho */
         text-align: justify;
         padding: 5px;
     }
+
     .SeccionIndex div {
-        max-width: 100%; /* Ajustar el ancho máximo al 100% del contenedor */
-        width: 100%; /* Asegurar que ocupe todo el ancho disponible */
+        max-width: 100%;
+        /* Ajustar el ancho máximo al 100% del contenedor */
+        width: 100%;
+        /* Asegurar que ocupe todo el ancho disponible */
     }
 
     .SeccionIndex video,
     .SeccionIndex iframe {
-        max-width: 100%; /* Ajustar el ancho máximo al 100% del contenedor */
+        max-width: 100%;
+        /* Ajustar el ancho máximo al 100% del contenedor */
         height: auto;
     }
-    .HotspotSection{
+
+    .HotspotSection {
         flex-direction: column;
-        align-items: stretch; /* Ajusta la altura de los elementos para ocupar todo el ancho */
+        align-items: stretch;
+        /* Ajusta la altura de los elementos para ocupar todo el ancho */
     }
-    .HotspotSection p{
-       height: auto;
-       margin-bottom: 20px;
+
+    .HotspotSection p {
+        min-height: auto;
+        margin-bottom: 20px;
     }
-    .CuisineSection{
+
+    .CuisineSection {
         flex-direction: column;
         margin-top: 5px;
         align-items: stretch;
     }
-    .CuisineDivisions img{
+
+    .CuisineDivisions img {
+        width: 50vw;
+        justify-self: center;
+    }
+    .CuisineStory {
+        min-height: auto;
+    }
+    
+    .CuisineCheff {
+        min-height: auto;
+    }
+    .CuisineIframes{
+        min-height: auto;
+    }
+
+    .hotspotsImg {
         width: 95vw;
     }
-    .hotspotsImg{
-        width: 95vw;
-    }
-    .Imagenes{
+
+    .Imagenes {
         width: 50vw !important;
     }
 }
